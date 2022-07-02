@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, Vibration} from 'react-native';
-import KeepAwake from 'react-native-keep-awake';
+// import KeepAwake from 'react-native-keep-awake';
 import {ProgressBar} from 'react-native-paper';
 import {Timing} from '../features/Timing';
 import {Colors} from '../utils/colors';
 import {Countdown} from '../components/Countdown';
 import {RoundedButton} from '../components/RoundedButton';
-import {spacing, fontSizes} from '../utils/sizes';
+import {spacing} from '../utils/sizes';
 
 const ONE_SECOND_IN_MS = 1000;
 
